@@ -25,7 +25,7 @@ public class Q8_MatheusDePaula extends JFrame implements ActionListener {
         botoes = new JButton[20];
 
         for (int i = 0; i < 20; i++) {
-            botoes[i] = new JButton(" " + (i+1));
+            botoes[i] = new JButton("" + (i+1));
             botoes[i].addActionListener(this);
             digitosPanel.add(botoes[i]);
         }
